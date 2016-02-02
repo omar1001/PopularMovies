@@ -1,0 +1,25 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:divider="?android:attr/dividerHorizontal"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:baselineAligned="false">
+    
+    <fragment
+        android:name="com.example.omar.popularmovies.PosterFragment"
+        android:layout_width="0dp"
+        android:id="@+id/container"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        tools:layout="@android:layout/list_content"/>
+
+    <FrameLayout
+        android:id="@+id/detailActivityContainer"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="4"></FrameLayout>
+
+</LinearLayout>

@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Popular Movies</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="action_share">Share</string>
+
+    <string name="pref_sort_label">Sort By</string>
+
+    <string name="pref_sort_key">sortBy</string>
+    <string name="pref_sort_label_top_rated">Top Rated</string>
+    <string name="pref_sort_label_most_popular">Popular</string>
+    <string name="pref_sort_label_now_playing">Now Playing</string>
+    <string name="pref_sort_label_up_coming">Upcoming</string>
+    <string name="pref_sort_label_favorites">Favorites</string>
+
+    <string name="pref_sort_top_rated" translatable="false">top_rated</string>
+    <string name="pref_sort_most_popular" translatable="false">popular</string>
+    <string name="pref_sort_now_playing" translatable="false">now_playing</string>
+    <string name="pref_sort_up_coming" translatable="false">upcoming</string>
+    <string name="pref_sort_favorites" translatable="false">favorites</string>
+
+    <string name="title_activity_detail">DetailActivity</string>
+    <string name="title_activity_review_detail">ReviewDetail</string>
+
+</resources>
